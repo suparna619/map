@@ -1,0 +1,82 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'c:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'ctest-0.0.4.tgz' ]
+2 info using npm@1.4.14
+3 info using node@v0.10.29
+4 verbose cache add [ 'ctest-0.0.4.tgz', null ]
+5 verbose cache add name=undefined spec="ctest-0.0.4.tgz" args=["ctest-0.0.4.tgz",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'ctest-0.0.4.tgz',
+6 verbose parsed url   path: 'ctest-0.0.4.tgz',
+6 verbose parsed url   href: 'ctest-0.0.4.tgz' }
+7 silly lockFile 380822f7-ctest-0-0-4-tgz ctest-0.0.4.tgz
+8 verbose lock ctest-0.0.4.tgz C:\Users\suparnad\AppData\Roaming\npm-cache\380822f7-ctest-0-0-4-tgz.lock
+9 silly lockFile 380822f7-ctest-0-0-4-tgz ctest-0.0.4.tgz
+10 silly lockFile 380822f7-ctest-0-0-4-tgz ctest-0.0.4.tgz
+11 verbose addNamed [ 'ctest-0.0.4.tgz', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile e4425323-ctest-0-0-4-tgz ctest-0.0.4.tgz@
+14 verbose lock ctest-0.0.4.tgz@ C:\Users\suparnad\AppData\Roaming\npm-cache\e4425323-ctest-0-0-4-tgz.lock
+15 silly addNameRange { name: 'ctest-0.0.4.tgz', range: '*', hasData: false }
+16 verbose url raw ctest-0.0.4.tgz
+17 verbose url resolving [ 'https://registry.npmjs.org/', './ctest-0.0.4.tgz' ]
+18 verbose url resolved https://registry.npmjs.org/ctest-0.0.4.tgz
+19 info trying registry request attempt 1 at 16:37:10
+20 http GET https://registry.npmjs.org/ctest-0.0.4.tgz
+21 http 404 https://registry.npmjs.org/ctest-0.0.4.tgz
+22 verbose headers { date: 'Sat, 17 Jan 2015 11:07:12 GMT',
+22 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+22 verbose headers   'content-type': 'application/json',
+22 verbose headers   'cache-control': 'max-age=0',
+22 verbose headers   'content-length': '52',
+22 verbose headers   'accept-ranges': 'bytes',
+22 verbose headers   via: '1.1 varnish',
+22 verbose headers   age: '0',
+22 verbose headers   'x-served-by': 'cache-sn88-SIN',
+22 verbose headers   'x-cache': 'MISS',
+22 verbose headers   'x-cache-hits': '0',
+22 verbose headers   'x-timer': 'S1421492831.384973,VS0,VE796',
+22 verbose headers   'keep-alive': 'timeout=10, max=50',
+22 verbose headers   connection: 'Keep-Alive' }
+23 silly registry.get cb [ 404,
+23 silly registry.get   { date: 'Sat, 17 Jan 2015 11:07:12 GMT',
+23 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+23 silly registry.get     'content-type': 'application/json',
+23 silly registry.get     'cache-control': 'max-age=0',
+23 silly registry.get     'content-length': '52',
+23 silly registry.get     'accept-ranges': 'bytes',
+23 silly registry.get     via: '1.1 varnish',
+23 silly registry.get     age: '0',
+23 silly registry.get     'x-served-by': 'cache-sn88-SIN',
+23 silly registry.get     'x-cache': 'MISS',
+23 silly registry.get     'x-cache-hits': '0',
+23 silly registry.get     'x-timer': 'S1421492831.384973,VS0,VE796',
+23 silly registry.get     'keep-alive': 'timeout=10, max=50',
+23 silly registry.get     connection: 'Keep-Alive' } ]
+24 silly lockFile e4425323-ctest-0-0-4-tgz ctest-0.0.4.tgz@
+25 silly lockFile e4425323-ctest-0-0-4-tgz ctest-0.0.4.tgz@
+26 error 404 404 Not Found: ctest-0.0.4.tgz
+26 error 404
+26 error 404 'ctest-0.0.4.tgz' is not in the npm registry.
+26 error 404 You should bug the author to publish it
+26 error 404
+26 error 404 Note that you can also install from a
+26 error 404 tarball, folder, or http url, or git url.
+27 error System Windows_NT 6.1.7601
+28 error command "c:\\Program Files\\nodejs\\node.exe" "c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "-g" "ctest-0.0.4.tgz"
+29 error cwd d:\c-workspace\map
+30 error node -v v0.10.29
+31 error npm -v 1.4.14
+32 error code E404
+33 verbose exit [ 1, true ]
